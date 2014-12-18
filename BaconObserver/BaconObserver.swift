@@ -8,39 +8,44 @@
 
 import Foundation
 
-protocol ObserverType : class {
-    func update(observable : Observable)
+protocol BaconObserverType : class {
+    func update(observable : BaconObservable)
 }
 
-protocol ObservableType {
-    func addObserver(obs : ObserverType) -> Void
+protocol BaconObservableType {
+    func addObserver(obs : BaconObserverType) -> Void
 }
 
-class Observable : ObservableType {
-    var observers: [ObserverType]
+class BaconObservable : BaconObservableType {
+    var observers: [BaconObserverType]
     var changed : Bool
     init() {
         self.changed = false
-        self.observers = [ObserverType]()
+        self.observers = [BaconObserverType]()
     }
     
-    func tryToAddNonCurry(newObserver : ObserverType) -> ((obs : ObserverType) -> Bool) {
+    func tryToAddNonCurry(newObserver : BaconObserverType) -> ((obs : BaconObserverType) -> Bool) {
+        // when contains is called on an empty collection it doesn't
+        // ever execute the closure so we just add on empty count
+        if self.observers.count == 0 {
+            self.observers.append(newObserver)
+        }
         return { obs in
             if newObserver === obs {
-                self.observers.append(newObserver)
                 return true
             }
+            self.observers.append(newObserver)
             return false
         }
     }
     
-    func addObserver(newObserver : ObserverType) {
+    func addObserver(newObserver : BaconObserverType) {
         objc_sync_enter(self)
         contains(self.observers, tryToAddNonCurry(newObserver))
         objc_sync_exit(self)
     }
     
-    func removeObserver(killObserver : ObserverType) {
+    func removeObserver(killObserver : BaconObserverType) {
         objc_sync_enter(self)
         var indexOf : Int = -1
         // so apparently find() doesn't work right yet with protocol arrays
@@ -74,6 +79,11 @@ class Observable : ObservableType {
         let tempArray = self.observers
         tempArray.map({ $0.update(self) })
         
+    }
+    
+    func poke() {
+        self.setChanged()
+        self.notifyObservers()
     }
 }
 

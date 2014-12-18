@@ -8,19 +8,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, BaconObserverType {
 
+    required init(coder aDecoder: NSCoder) {
+        self.baco = BaconObservable()
+        super.init(coder: aDecoder)
+    }
+    
+    var baco : BaconObservable
+
+    
+    func update(observable: BaconObservable) {
+       println("")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         
-        
-        
+        self.baco.addObserver(self)
+        self.baco.poke()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
