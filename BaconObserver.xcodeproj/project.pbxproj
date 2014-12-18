@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4BF7DEE1A427FC500FFD58F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF7DED1A427FC500FFD58F /* AppDelegate.swift */; };
+		F4BF7DF01A427FC500FFD58F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF7DEF1A427FC500FFD58F /* ViewController.swift */; };
+		F4BF7DF31A427FC500FFD58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BF7DF11A427FC500FFD58F /* Main.storyboard */; };
+		F4BF7DF51A427FC500FFD58F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BF7DF41A427FC500FFD58F /* Images.xcassets */; };
+		F4BF7DF81A427FC500FFD58F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4BF7DF61A427FC500FFD58F /* LaunchScreen.xib */; };
+		F4BF7E041A427FC500FFD58F /* BaconObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BF7E031A427FC500FFD58F /* BaconObserverTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BF7DFE1A427FC500FFD58F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BF7DE01A427FC500FFD58F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BF7DE71A427FC500FFD58F;
+			remoteInfo = BaconObserver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4BF7DE81A427FC500FFD58F /* BaconObserver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaconObserver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BF7DEC1A427FC500FFD58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BF7DED1A427FC500FFD58F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4BF7DEF1A427FC500FFD58F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4BF7DF21A427FC500FFD58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4BF7DF41A427FC500FFD58F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4BF7DF71A427FC500FFD58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F4BF7DFD1A427FC500FFD58F /* BaconObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaconObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BF7E021A427FC500FFD58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BF7E031A427FC500FFD58F /* BaconObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaconObserverTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BF7DE51A427FC500FFD58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF7DFA1A427FC500FFD58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4BF7DDF1A427FC500FFD58F = {
+			isa = PBXGroup;
+			children = (
+				F4BF7DEA1A427FC500FFD58F /* BaconObserver */,
+				F4BF7E001A427FC500FFD58F /* BaconObserverTests */,
+				F4BF7DE91A427FC500FFD58F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BF7DE91A427FC500FFD58F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF7DE81A427FC500FFD58F /* BaconObserver.app */,
+				F4BF7DFD1A427FC500FFD58F /* BaconObserverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BF7DEA1A427FC500FFD58F /* BaconObserver */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF7DED1A427FC500FFD58F /* AppDelegate.swift */,
+				F4BF7DEF1A427FC500FFD58F /* ViewController.swift */,
+				F4BF7DF11A427FC500FFD58F /* Main.storyboard */,
+				F4BF7DF41A427FC500FFD58F /* Images.xcassets */,
+				F4BF7DF61A427FC500FFD58F /* LaunchScreen.xib */,
+				F4BF7DEB1A427FC500FFD58F /* Supporting Files */,
+			);
+			path = BaconObserver;
+			sourceTree = "<group>";
+		};
+		F4BF7DEB1A427FC500FFD58F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF7DEC1A427FC500FFD58F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4BF7E001A427FC500FFD58F /* BaconObserverTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF7E031A427FC500FFD58F /* BaconObserverTests.swift */,
+				F4BF7E011A427FC500FFD58F /* Supporting Files */,
+			);
+			path = BaconObserverTests;
+			sourceTree = "<group>";
+		};
+		F4BF7E011A427FC500FFD58F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF7E021A427FC500FFD58F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BF7DE71A427FC500FFD58F /* BaconObserver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF7E071A427FC500FFD58F /* Build configuration list for PBXNativeTarget "BaconObserver" */;
+			buildPhases = (
+				F4BF7DE41A427FC500FFD58F /* Sources */,
+				F4BF7DE51A427FC500FFD58F /* Frameworks */,
+				F4BF7DE61A427FC500FFD58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaconObserver;
+			productName = BaconObserver;
+			productReference = F4BF7DE81A427FC500FFD58F /* BaconObserver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BF7DFC1A427FC500FFD58F /* BaconObserverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BF7E0A1A427FC500FFD58F /* Build configuration list for PBXNativeTarget "BaconObserverTests" */;
+			buildPhases = (
+				F4BF7DF91A427FC500FFD58F /* Sources */,
+				F4BF7DFA1A427FC500FFD58F /* Frameworks */,
+				F4BF7DFB1A427FC500FFD58F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BF7DFF1A427FC500FFD58F /* PBXTargetDependency */,
+			);
+			name = BaconObserverTests;
+			productName = BaconObserverTests;
+			productReference = F4BF7DFD1A427FC500FFD58F /* BaconObserverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BF7DE01A427FC500FFD58F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = electricbaconstudios;
+				TargetAttributes = {
+					F4BF7DE71A427FC500FFD58F = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F4BF7DFC1A427FC500FFD58F = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F4BF7DE71A427FC500FFD58F;
+					};
+				};
+			};
+			buildConfigurationList = F4BF7DE31A427FC500FFD58F /* Build configuration list for PBXProject "BaconObserver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BF7DDF1A427FC500FFD58F;
+			productRefGroup = F4BF7DE91A427FC500FFD58F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BF7DE71A427FC500FFD58F /* BaconObserver */,
+				F4BF7DFC1A427FC500FFD58F /* BaconObserverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BF7DE61A427FC500FFD58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BF7DF31A427FC500FFD58F /* Main.storyboard in Resources */,
+				F4BF7DF81A427FC500FFD58F /* LaunchScreen.xib in Resources */,
+				F4BF7DF51A427FC500FFD58F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF7DFB1A427FC500FFD58F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BF7DE41A427FC500FFD58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BF7DF01A427FC500FFD58F /* ViewController.swift in Sources */,
+				F4BF7DEE1A427FC500FFD58F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BF7DF91A427FC500FFD58F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BF7E041A427FC500FFD58F /* BaconObserverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BF7DFF1A427FC500FFD58F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BF7DE71A427FC500FFD58F /* BaconObserver */;
+			targetProxy = F4BF7DFE1A427FC500FFD58F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4BF7DF11A427FC500FFD58F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BF7DF21A427FC500FFD58F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4BF7DF61A427FC500FFD58F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BF7DF71A427FC500FFD58F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4BF7E051A427FC500FFD58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BF7E061A427FC500FFD58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BF7E081A427FC500FFD58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaconObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4BF7E091A427FC500FFD58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BaconObserver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4BF7E0B1A427FC500FFD58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaconObserverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaconObserver.app/BaconObserver";
+			};
+			name = Debug;
+		};
+		F4BF7E0C1A427FC500FFD58F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BaconObserverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaconObserver.app/BaconObserver";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BF7DE31A427FC500FFD58F /* Build configuration list for PBXProject "BaconObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF7E051A427FC500FFD58F /* Debug */,
+				F4BF7E061A427FC500FFD58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BF7E071A427FC500FFD58F /* Build configuration list for PBXNativeTarget "BaconObserver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF7E081A427FC500FFD58F /* Debug */,
+				F4BF7E091A427FC500FFD58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4BF7E0A1A427FC500FFD58F /* Build configuration list for PBXNativeTarget "BaconObserverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BF7E0B1A427FC500FFD58F /* Debug */,
+				F4BF7E0C1A427FC500FFD58F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BF7DE01A427FC500FFD58F /* Project object */;
+}
