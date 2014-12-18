@@ -41,52 +41,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "BaconObserver/BaconObserver.swift"
-            timestampString = "440589439.80199"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "addObserver(_:)"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "BaconObserver.BaconObservable.addObserver (BaconObserver.BaconObservable)(BaconObserver.BaconObserverType) -&gt; ()"
-                  moduleName = "BaconObserver"
-                  urlString = "file:///Users/spacehomunculus/source/BaconObserver/BaconObserver/BaconObserver.swift"
-                  timestampString = "440589440.111442"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "119">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "reabstraction thunk helper from @callee_owned (@owned BaconObserver.BaconObserverType) -&gt; (@unowned Swift.Bool) to @callee_owned (@in BaconObserver.BaconObserverType) -&gt; (@out Swift.Bool)"
-                  moduleName = "BaconObserver"
-                  urlString = "file:///Users/spacehomunculus/source/BaconObserver/BaconObserver/BaconObserver.swift"
-                  timestampString = "440589440.111626"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
-                  offsetFromSymbolStart = "11">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "BaconObserver/ViewController.swift"
             timestampString = "440588561.904716"
             startingColumnNumber = "9223372036854775807"
@@ -104,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BaconObserver/BaconObserver.swift"
-            timestampString = "440589439.80199"
+            timestampString = "440589954.676461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "tryToAddNonCurry(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -120,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BaconObserver/BaconObserver.swift"
-            timestampString = "440589439.80199"
+            timestampString = "440589954.676461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "tryToAddNonCurry(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -136,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BaconObserver/BaconObserver.swift"
-            timestampString = "440589439.80199"
+            timestampString = "440589954.676461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "tryToAddNonCurry(_:)"
             landmarkType = "5">
          </BreakpointContent>
@@ -152,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BaconObserver/BaconObserver.swift"
-            timestampString = "440589446.370032"
+            timestampString = "440589954.676461"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "tryToAddNonCurry(_:)"
             landmarkType = "5">
          </BreakpointContent>

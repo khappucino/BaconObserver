@@ -24,6 +24,23 @@ class BaconObservable : BaconObservableType {
         self.observers = [BaconObserverType]()
     }
     
+//    For some reason the Curry version does not work with contains
+//    func tryToAddCurry(newObserver : BaconObserverType) (obs : BaconObserverType) -> Bool {
+//            // when contains is called on an empty collection it doesn't
+//            // ever execute the closure so we just add on empty count
+//            if self.observers.count == 0 {
+//                self.observers.append(newObserver)
+//            }
+//        
+//            if newObserver === obs {
+//                return true
+//            }
+//            self.observers.append(newObserver)
+//            return false
+//        
+//        }
+    
+    // Non-Curry version works with contains
     func tryToAddNonCurry(newObserver : BaconObserverType) -> ((obs : BaconObserverType) -> Bool) {
         // when contains is called on an empty collection it doesn't
         // ever execute the closure so we just add on empty count
