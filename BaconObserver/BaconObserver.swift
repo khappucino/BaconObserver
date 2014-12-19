@@ -24,41 +24,37 @@ class BaconObservable : BaconObservableType {
         self.observers = [BaconObserverType]()
     }
     
-//    For some reason the Curry version does not work with contains
-//    func tryToAddCurry(newObserver : BaconObserverType) (obs : BaconObserverType) -> Bool {
-//            // when contains is called on an empty collection it doesn't
-//            // ever execute the closure so we just add on empty count
-//            if self.observers.count == 0 {
-//                self.observers.append(newObserver)
-//            }
-//        
-//            if newObserver === obs {
-//                return true
-//            }
-//            self.observers.append(newObserver)
-//            return false
-//        
-//        }
-    
-    // Non-Curry version works with contains
-    func tryToAddNonCurry(newObserver : BaconObserverType) -> ((obs : BaconObserverType) -> Bool) {
+    func containsCurryClosure(newObserver : BaconObserverType) (obs : BaconObserverType) -> Bool {
         // when contains is called on an empty collection it doesn't
         // ever execute the closure so we just add on empty count
-        if self.observers.count == 0 {
-            self.observers.append(newObserver)
+        if newObserver === obs {
+            return true
         }
+        return false
+    }
+    
+    // Non-Curry version works with contains
+    func containsClosure(newObserver : BaconObserverType) -> ((obs : BaconObserverType) -> Bool) {
+        // when contains is called on an empty collection it doesn't
+        // ever execute the closure so we just add on empty count
         return { obs in
             if newObserver === obs {
                 return true
             }
-            self.observers.append(newObserver)
             return false
+        }
+    }
+    
+    func tryToAdd(newObserver : BaconObserverType, containsObserver containsObs : Bool) {
+        if self.observers.count == 0 || !containsObs {
+            self.observers.append(newObserver)
         }
     }
     
     func addObserver(newObserver : BaconObserverType) {
         objc_sync_enter(self)
-        contains(self.observers, tryToAddNonCurry(newObserver))
+        var alreadyContainsObserver = contains(self.observers, containsCurryClosure(newObserver))
+        tryToAdd(newObserver, containsObserver : alreadyContainsObserver)
         objc_sync_exit(self)
     }
     

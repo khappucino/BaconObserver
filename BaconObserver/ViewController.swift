@@ -26,6 +26,7 @@ class ViewController: UIViewController, BaconObserverType {
         super.viewDidLoad()
         
         self.baco.addObserver(self)
+        self.baco.addObserver(self)
         self.baco.poke()
     }
 
